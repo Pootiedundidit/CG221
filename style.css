@@ -1,11 +1,11 @@
 body{
 
-font-family: "Times New Roman", Times, serif;
+font-family:	Arial, Helvetica, sans-serif;
 
 
 }
 body {
-    background-color: Thistle;
+    background-color: #94D0FF;
 }
 a {
     color: MediumSlateBlue;
@@ -18,7 +18,7 @@ p {
 }
 h1 {
     font-size: 50px;
-    font-family: "Impact", Charcoal, sans-serif;
+    font-family: "Arial Black", Gadget, sans-serif;
 }
 
 h2 {
@@ -31,39 +31,35 @@ p {
     font-family: "Arial", Helvetica, sans-serif;
 }
 
-
-img.two {
-    height: 200px;
-    width: 300px;
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #8795E8;
 }
-body {
-	padding: 40px;
-	overflow-x: hidden; 
-	-webkit-box-shadow:
-		inset #19d4ff 0 0 0 5px,
-		inset #18cdf7 0 0 0 1px,
-		inset #53dfff 0 0 0 10px,
-		inset #50d8f7 0 0 0 11px,
-		inset #8ce9ff 0 0 0 16px,
-		inset #88e2f7 0 0 0 17px,
-		inset #c5f4ff 0 0 0 22px,
-		inset #bfecf7 0 0 0 23px;
-	-moz-box-shadow:
-		inset #19d4ff 0 0 0 5px,
-		inset #18cdf7 0 0 0 1px,
-		inset #53dfff 0 0 0 10px,
-		inset #50d8f7 0 0 0 11px,
-		inset #8ce9ff 0 0 0 16px,
-		inset #88e2f7 0 0 0 17px,
-		inset #c5f4ff 0 0 0 22px,
-		inset #bfecf7 0 0 0 23px;
-	box-shadow:
-		inset #19d4ff 0 0 0 5px,
-		inset #18cdf7 0 0 0 1px,
-		inset #53dfff 0 0 0 10px,
-		inset #50d8f7 0 0 0 11px,
-		inset #8ce9ff 0 0 0 16px,
-		inset #88e2f7 0 0 0 17px,
-		inset #c5f4ff 0 0 0 22px,
-		inset #bfecf7 0 0 0 23px;
+
+li {
+    float: left;
+    border-right:1px solid #bbb;
+}
+
+li:last-child {
+    border-right: none;
+}
+
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+li a:hover:not(.active) {
+    background-color: #FF6AD5;
+}
+
+.active {
+    background-color: #EEB4BE;
 }
