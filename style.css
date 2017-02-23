@@ -37,7 +37,7 @@ ul {
     padding: 0;
     overflow: hidden;
     background-color: #8795E8;
-} 
+}
 
 li {
     float: left;
@@ -65,15 +65,10 @@ li a:hover:not(.active) {
 }
 
 
-
-
-
-
-
+/*curved box border below*/
 
 p.normal {
     border: 2px solid #94D0FF;
-    
 }
 
 p.round1 {
@@ -86,8 +81,41 @@ p.round1 {
     padding-left: 60px;
 }
 
-
+/* p. text width below */
 p   {
-    max-width: 44rem ;
+    max-width: 33rem ;
 }
 
+
+/*color and settigns for gallery*/
+/* --- Colors --- */
+/*
+main color: #3dafaf
+light color: #58c7c6
+grey: #a9a9a9
+light grey: #c3c3c3
+*/
+
+body {
+  font-size: 16px;
+  font-family: 'Arimo', sans-serif;
+}
+.container {
+  max-width: 900px;
+  margin: auto;
+}
+h1 {
+  color: #3dafaf;
+}
+img {
+    max-width: 100%;
+}
+.gallery-item {
+    width: 40%;
+    display: inline-block;
+    margin: 2rem;
+    border-bottom: 3px solid #7F95D1;
+    background-color: #FAC8CD;
+}
+
+/*enddd*/
