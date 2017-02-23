@@ -88,31 +88,25 @@ p   {
 
 
 /*color and settigns for gallery*/
-/* --- Colors --- */
-/*
-main color: #3dafaf
-light color: #58c7c6
-grey: #a9a9a9
-light grey: #c3c3c3
-*/
+
 
 body {
   font-size: 16px;
   font-family: 'Arimo', sans-serif;
 }
 .container {
-  max-width: 800px;
+  max-width: 1000px;
   margin: auto;
 }
 h1 {
-  color: #3dafaf;
+  color: #23E0EA;
 }
 img {
     max-width: 100%;
 }
 .gallery-item {
     width: 40%;
-    display: center;
+    display: inline-block;
     margin: 2rem;
     border-bottom: 3px solid #7F95D1;
     background-color: #FAC8CD;
