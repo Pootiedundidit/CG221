@@ -1,0 +1,20 @@
+
+body {
+ color: #fff;
+ font: 600 14px/24px "Open Sans", "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", Sans-Serif;
+}
+.heart {
+ fill: none;
+ stroke: #000000;
+ stroke-miterlimit:10;
+ cursor: pointer;
+ height: 95px;
+ text-align: center;
+ transition-property: background;
+ transition-duration: 1s;
+ transition-timing-function: linear;
+ width: 95px;
+}
+.heart:hover {
+ fill: #ff7b29;
+}
