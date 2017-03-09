@@ -1,20 +1,49 @@
 
-body {
- color: #fff;
- font: 600 14px/24px "Open Sans", "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", Sans-Serif;
-}
+/*floating images */
+
+
+
 .heart {
- fill: none;
- stroke: #000000;
- stroke-miterlimit:10;
- cursor: pointer;
- height: 95px;
- text-align: center;
- transition-property: background;
- transition-duration: 1s;
- transition-timing-function: linear;
- width: 95px;
+    float: left;
+    animation-delay: 1s;
+    -webkit-animation-name: scalex;
+    -webkit-animation-duration:2s;
+    -webkit-animation-iteration-count:infinite;
+    -webkit-animation-timing-function:ease-in-out;
+    -moz-animation-name: scale;
+    -moz-animation-duration:2s;
+    -moz-animation-iteration-count:infinite;
+    -moz-animation-timing-function:ease-in-out;
 }
-.heart:hover {
- fill: #ff7b29;
+
+    @-webkit-keyframes scalex{
+        from {-webkit-transform: scale(0.9);}
+        65% {-webkit-transform: scale(1.0);}
+        to {-webkit-transform: scale(0.9);}
+    }
+
+    @-moz-keyframes scale{
+        from {-moz-transform: scale(0.9);}
+        65% {-moz-transform: scale(1.0);}
+        to {-moz-transform: scale(0.9);}
+    }
+
+
+/*heart color */
+
+
+    .heart {
+     fill: none;
+     stroke: #f442b9;
+     stroke-miterlimit:10;
+     cursor: pointer;
+     height: 200px;
+     width: 100px;
+    }
+    .heart:hover {
+     fill: #cc6699;
+     stroke-width: 6;
+
 }
+
+/*enddd*/
