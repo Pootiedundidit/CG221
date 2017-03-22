@@ -1,0 +1,45 @@
+<!Doctype html>
+<html>
+  <head>
+      <meta charset="utf-8">
+      <title> &hearts; Pootie's Fav Websites &hearts; </title>
+          <link rel="stylesheet" type="text/css" href="style.css">
+      <ul>
+            <li><a href="index.html">home</a></li>
+            <li><a class="active" href="HW.html">h.w.</a></li>
+            <li><a href="photos.html">photos</a></li>
+            <li style="float:right"><a href="Bio.html">about me </a></li>
+          </ul>
+
+          </body>
+          </html>
+
+
+  </head>
+    <body>
+<center>
+          <h2> &star; <u> Week Seven March.15.2017 </u> &star;</h2>
+           <br>
+                <a href="http://www.http://lacewhiskey.com/"><img src="lacewhisky.jpg"></a>
+      <br>
+     
+            <h3><a href="http://lacewhiskey.com/">Lace & Whiskey</a></h3>
+             <br> <p>I enjoy this blog for the readings, but also the simplicity to the layout. Its plain but the font sticks out and blends with the logo. The site is responsive so it is able to be used easily on a phone. </p>
+      
+      
+      
+      
+      
+           <br>
+      
+      
+      
+      
+      <a href="http://www.nationalgeographic.com/"><img src="netgeo.jpg"></a>
+      <br>
+           <h3><a href="http://www.nationalgeographic.com/">National Geographic</a></h3>
+              <p> I always enjoyed national Geographic growing up. National geographic made their website very user friendly to keep people interested.</p>
+
+      </center>
+                  </body>
+              </html>
