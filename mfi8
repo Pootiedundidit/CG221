@@ -1,0 +1,41 @@
+<!Doctype html>
+<html>
+  <head>
+      <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+      <title> &hearts; Pootie's Fav Websites &hearts; </title>
+          <link rel="stylesheet" type="text/css" href="style.css">
+      <ul>
+            <li><a href="index.html">home</a></li>
+            <li><a class="active" href="HW.html">h.w.</a></li>
+            <li><a href="photos.html">photos</a></li>
+            <li style="float:right"><a href="Bio.html">about me </a></li>
+          </ul>
+
+          </body>
+          </html>
+
+
+  </head>
+    <body>
+<center>
+        <header>
+          <a href="HW.html"><h1>&hearts; Homework Assignments&hearts;</h1></a>
+        </header>
+        <h2> &star; <u> Week One Feb.1.2017 </u> &star;</h2>
+      <br>
+      <br>
+            <h3><a href="http://www.cachemonet.com/">Cache Monet</a></h3>
+               <p>I really enjoy this site. The random images being generated as you clicks really catches my attention. The song plays in a loop giving this website and endless feel. I enjoy digital art very much, and this website really captures everything i enjoy about digital art, like the weird feeling you get at the collage or images.
+              </p>
+      <br>
+      <br>
+            <h3><a href="http://vectorpark.com/head/">Vector Park</a></h3>
+
+               <p> This website is simple, but very entertaining. Every click engages the user to find something new. You pull off the nose to reveal a different nose each time. The eye will cry if you click it, and then comes rolling out the mouth. This website is very strange. However i find it very fun and interactive.
+               </p>
+      </center>
+
+
+    </body>
+</html>
