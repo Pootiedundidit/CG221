@@ -1,0 +1,37 @@
+body{
+
+    background-color: #e1f4f4;
+    f
+}
+img {
+    max-width: 100%;
+}
+
+a {
+    color: MediumSlateBlue;
+}
+
+h1 {
+    font-size: 30px;
+    color: #F9E3F4;
+    font-family: "Arial Black", Gadget, sans-serif;
+}
+
+h2 {
+    font-size: 40px;
+    color: #657DBF;
+    font-family: "Arial Black", Gadget, sans-serif;
+}
+h3 {
+    font-size: 60px;
+    color: #657DBF;
+    font-family: "Arial Black", Gadget, sans-serif;
+}
+
+p {
+
+    padding-right: 70px;
+    text-align: right;
+    font-size: 20px;
+    font-family: "Arial", Helvetica, sans-serif;
+}
