@@ -13,7 +13,7 @@ a {
 
 h1 {
     font-size: 30px;
-    color: #F9E3F4;
+    color: #657DBF;
     font-family: "Arial Black", Gadget, sans-serif;
 }
 
@@ -31,7 +31,11 @@ h3 {
 p {
 
     padding-right: 70px;
-    text-align: right;
     font-size: 20px;
     font-family: "Arial", Helvetica, sans-serif;
+}
+
+img.pic{
+  max-width: 100px;
+  max-height: 100px;
 }
