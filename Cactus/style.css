@@ -1,0 +1,143 @@
+body{
+
+    background-color: #000000;
+    f
+}
+/* header*/
+
+#header {
+   width: inherit;
+   height: inherit;
+   margin: -1;
+   padding: -10;
+   background-color: #000000;
+}
+
+.imgtxt {
+   position: relative;
+   width: 100%; /* for IE 6 */
+}
+
+h5 {
+   font-size: 100px;
+   color: #E8E9F3;
+   font-family: "Segoe UI", Frutiger, "Frutiger Linotype", "Dejavu Sans", "Helvetica Neue", Arial, sans-serif;
+   letter-spacing: -5px;
+   text-shadow: 5px 3px #003333;
+   position: absolute;
+   top: -120px;
+   left: 5px;
+   width: 100%;
+}
+
+img {
+    max-width: 100%;
+}
+
+a {
+    color: MediumSlateBlue;
+}
+
+h1 {
+    font-size: 30px;
+    color: #e5f1fa;
+    font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+}
+
+h2 {
+    font-size: 40px;
+    text-shadow: 1px 1px #000000;
+    color: #e5f1fa;
+    font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+}
+
+/*large heading fonts*/
+h3 {
+    font-size: 80px;
+    text-shadow: 2px 2px #003333;
+    color: #e5f1fa;
+    font-family: "Segoe UI", Frutiger, "Frutiger Linotype", "Dejavu Sans", "Helvetica Neue", Arial, sans-serif;
+}
+
+p {
+    color: #e5f1fa;
+    padding-right: 70px;
+    text-shadow: 1px 1px #003333;
+    font-size: 20px;
+    font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+}
+
+img.pic{
+  max-width: 100px;
+  max-height: 100px;
+}
+
+.ui-widget-content {
+  border: none;
+  background: #94A187;
+
+}
+fieldset {
+  background-color: #C5AFA0;
+    display: block;
+    margin-left: 60px;
+    margin-right: 60px;
+    padding-top: 0.35em;
+    padding-bottom: 0.625em;
+    padding-left: 0.75em;
+    padding-right: 0.75em;
+    border: 10px;
+    border-style: double;
+    border-color: #494949;
+    border-radius: 180px 180px 180px 180px;
+}
+
+fieldset.p {
+  background-color: #94A187;
+    display: block;
+    margin-left: 80px;
+    margin-right: 150px;
+    padding-top: 0.35em;
+    padding-bottom: 0.625em;
+    padding-left: 0.75em;
+    padding-right: 0.75em;
+    border: 20px;
+    border-style: double;
+    border-color: #494949;
+    border-radius: 180px 180px 180px 180px;
+}
+
+/*side to stuff img*/
+.imgCon{
+    float:left;
+    margin: 0 0 10px 10px;
+
+}
+
+.p {
+    line-height: 10%;
+}
+
+
+
+label {
+  display: block;
+  margin: 30px 0 0 0;
+}
+.overflow {
+  height: 200px;
+}
+
+/* select stuff*/
+
+
+  }
+  .overflow {
+    height: 200px;
+  }
+
+#feedback { font-size: 1.4em; }
+  #selectable .ui-selecting { background: #FECA40; }
+  #selectable .ui-selected { background: #F39814; color: white; }
+  #selectable { list-style-type: none; margin: 0; padding: 0; width: 60%; }
+  #selectable li { margin: 3px; padding: 0.4em; font-size: 1.4em; height: 18px; }
