@@ -1,0 +1,41 @@
+body{
+
+    background-color: #e1f4f4;
+
+}
+
+h1 {
+    font-size: 30px;
+    color: #657DBF;
+    font-family: "Arial Black", Gadget, sans-serif;
+}
+
+h2 {
+    font-size: 40px;
+    color: #657DBF;
+    font-family: "Arial Black", Gadget, sans-serif;
+}
+h3 {
+    font-size: 60px;
+    color: #657DBF;
+    font-family: "Arial Black", Gadget, sans-serif;
+}
+
+p {
+
+    padding-right: 70px;
+    font-size: 20px;
+    font-family: "Arial", Helvetica, sans-serif;
+}
+
+
+
+/*ui stuff*/
+
+ .draggable { width: 150px; height: 150px; padding: 0.5em; }
+
+ .ui-widget-content {
+   border: none;
+   background: none;
+
+ }
