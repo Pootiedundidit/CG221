@@ -83,3 +83,10 @@ fieldset {
     border-color: #494949;
     border-radius: 180px 180px 180px 180px;
 }
+
+
+
+/*hide music*/
+audio { 
+   display:none;
+}
