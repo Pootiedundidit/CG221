@@ -1,0 +1,85 @@
+body{
+    background-image: url("src/cloud.jpg");
+    background-color: #F3E0EC;
+}
+
+h1 {
+    font-size: 30px;
+    text-shadow: 2px 2px #F2BEFC;
+    color: #685F74;
+    font-family: "Arial Black", Gadget, sans-serif;
+}
+
+h2 {
+    font-size: 40px;
+    text-shadow: 2px 2px #F2BEFC;
+    color: #685F74;
+    font-family: "Arial Black", Gadget, sans-serif;
+}
+h3 {
+    font-size: 70px;
+    text-shadow: 6px 6px #F2BEFC;
+    color: #685F74;
+    font-family: "Arial Black", Gadget, sans-serif;
+     word-spacing: -20px;
+}
+
+p {
+    color: #685F74;
+    text-shadow: 2px 2px #F2BEFC;
+    font-size: 20px;
+    font-family: "Arial", Helvetica, sans-serif;
+}
+.center {
+    position: right;
+    top: 5px;
+    text-align: center;
+}
+
+
+/*header*/
+#header {
+   width: inherit;
+   height: inherit;
+   margin: -1;
+   padding: -10;
+   background-color: none;
+}
+.imgtxt {
+   position: relative;
+   width: 100%; /* for IE 6 */
+}
+
+h5 {
+   font-size: 100px;
+   color: #E8E9F3;
+   font-family: "Segoe UI", Frutiger, "Frutiger Linotype", "Dejavu Sans", "Helvetica Neue", Arial, sans-serif;
+   letter-spacing: -5px;
+   text-shadow: 5px 3px #003333;
+   position: absolute;
+   top: -120px;
+   left: 5px;
+   width: 100%;
+}
+
+img {
+    max-width: 20%;
+}
+
+/*end*/
+
+/*feildset*/
+fieldset {
+  background-color: none;
+    display: right;
+    margin-left: 10px;
+    margin-right: 10px;
+    padding-top: 0.35em;
+    padding-bottom: 0.625em;
+    padding-left: 0.75em;
+    padding-right: 0.75em;
+    border: 10px;
+    border-style: double;
+    border-color: #494949;
+    border-radius: 180px 180px 180px 180px;
+}
