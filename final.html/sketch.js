@@ -11,11 +11,17 @@ function setup(){
 
 function draw(){
 
+  //move your mouse to change light direction
+  var dirX = (mouseX / width - 0.5) *2;
+  var dirY = (mouseY / height - 0.5) *(-2);
+  directionalLight(247, 205, 236, 70, dirX, dirY, 0.25);
+  ambientMaterial(221, 247, 205, 60);
+
  if (keyIsPressed === true){
-   fill(247, 205, 236);
- } else {
-   fill(221, 247, 205);
- }
+  directionalLight(247, 205, 236, 70, dirX, dirY, 0.25);
+} else {
+   ambientMaterial(221, 247, 205, 60);
+}
 
 //speed of 3d doodles
   rotateX(frameCount * 0.05);
@@ -27,13 +33,4 @@ function draw(){
   torus(160, 40, 100, 20);
   torus(mouseX, mouseY, 20, 40)
   sphere(35);
-  }
-
-
-
-
-  if (keyIsPressed === true){
-    fill(237, 205, 236);
-  } else {
-    fill(121, 247, 205);
   }
